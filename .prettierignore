@@ -1,0 +1,7 @@
+# 自動生成・ビルド成果物はPrettierの対象外にする
+node_modules
+dist
+package-lock.json
+
+# 外部ライブラリ（自分で書いたコードではないので整形しない）
+src/sanitize.css
